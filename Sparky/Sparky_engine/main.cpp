@@ -1,12 +1,13 @@
 #include<iostream>
 
 #include"src/graphics/window.h"
-#include"src/maths/vec2.h"
+#include"src/maths/maths.h"
 
 int main()
 {
 	using namespace sparky;
 	using namespace graphics;
+	using namespace maths;
 
 	Window window("Sparky!", 960, 540);
 
@@ -17,17 +18,25 @@ int main()
 	glGenVertexArrays(1, &vao);
 	glBindVertexArray(vao);
 
-	sparky::maths::vec2 a(1.0f, 2.0f);
+	maths::vec2 a(1.0f, 2.0f);
+	maths::vec2 b(2, 4);
+	
+	a /= b;
+
+	mat4 position = mat4::translation(vec3(2, 3, 4));
+	position *= mat4::identity();
+
 
 		while (!window.closed())
 		{
 			//std::cout << window.getWidth() << ", " << window.getHeight() << std::endl;
 
 			window.clear();
+			std::cout << a << std::endl;
 
-			double x, y;
-			window.getMousePosition(x, y);
-			std::cout << x << ", " << y << std::endl;
+		//double x, y;
+		//window.getMousePosition(x, y);
+		//std::cout << x << ", " << y << std::endl;
 
 			/*glBegin(GL_TRIANGLES);
 			glVertex2f(-0.5f, -0.5f);
