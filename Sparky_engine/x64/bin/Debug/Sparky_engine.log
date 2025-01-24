@@ -1,0 +1,7 @@
+﻿  main.cpp
+  window.cpp
+  Generating Code...
+glew32s.lib(glew.obj) : warning LNK4099: PDB '' was not found with 'glew32s.lib(glew.obj)' or at ''; linking object as if no debug info
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Sparky_engine.vcxproj -> C:\Users\kacpr\Documents\Sparky\x64\bin\Debug\Sparky_engine.exe
