@@ -1,4 +1,8 @@
 C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\main.obj
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\buffers\buffer.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\buffer.obj
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\buffers\indexbuffer.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\indexbuffer.obj
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\buffers\vertexarray.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\vertexarray.obj
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\simple2drenderer.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\simple2drenderer.obj
 C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\shader.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\shader.obj
 C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\graphics\window.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\window.obj
 C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\maths\mat4.cpp;C:\Users\kacpr\Documents\Sparky\Sparky_engine\x64\bin\Debug\Intermediates\mat4.obj
