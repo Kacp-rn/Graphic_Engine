@@ -7,9 +7,17 @@ c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\mat4.o
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\window.obj
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\shader.obj
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\main.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\vertexarray.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\indexbuffer.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\buffer.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\simple2drenderer.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\batchrenderer2d.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\static_sprite.obj
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\sprite.obj
 c:\users\kacpr\documents\sparky\x64\bin\debug\sparky_engine.exe
 c:\users\kacpr\documents\sparky\x64\bin\debug\sparky_engine.pdb
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\sparky_engine.ilk
+c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\renderer.obj
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\sparky_engine.tlog\cl.command.1.tlog
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\sparky_engine.tlog\cl.items.tlog
 c:\users\kacpr\documents\sparky\sparky_engine\x64\bin\debug\intermediates\sparky_engine.tlog\cl.read.1.tlog

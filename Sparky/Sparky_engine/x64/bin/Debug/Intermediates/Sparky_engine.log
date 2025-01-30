@@ -2,20 +2,15 @@
 C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\maths\maths.h(10,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
   (compiling source file 'main.cpp')
   
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(33,87): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(33,77): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(34,89): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(34,84): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(34,79): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(35,89): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(35,84): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(35,79): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(36,84): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(36,79): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(37,90): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(37,85): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(37,80): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(38,90): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(38,85): warning C4305: 'argument': truncation from 'double' to 'const float'
-C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(38,80): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(43,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(45,34): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(47,37): warning C4305: '+=': truncation from 'double' to 'float'
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(64,50): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(64,40): warning C4305: 'argument': truncation from 'double' to 'const float'
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\main.cpp(65,46): warning C4305: 'argument': truncation from 'double' to 'const float'
+  batchrenderer2d.cpp
+C:\Users\kacpr\Documents\Sparky\Sparky_engine\src\maths\maths.h(10,17): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/graphics/batchrenderer2d.cpp')
+  
+  Generating Code...
   Sparky_engine.vcxproj -> C:\Users\kacpr\Documents\Sparky\x64\bin\Debug\Sparky_engine.exe
