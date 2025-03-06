@@ -17,6 +17,8 @@
 
 #include<time.h>
 
+#include"src/utils/timer.h"
+
 #define BATCH_RENDERER 1
 
 int main()
@@ -36,15 +38,14 @@ int main()
 	shader.enable();
 
 	shader.setUniformMat4("pr_matrix", ortho);
-//	shader.setUniformMat4("ml_matrix", mat4::translation(vec3(4, 3, 0)));
 	
 	std::vector<Renderable2D*> sprites;
 
 	srand(time(NULL));
 
-	for (float y = 0; y < 9.0f; y+= 0.05)
+	for (float y = 0; y < 9.0f; y+= 0.07)
 	{
-		for (float x = 0; x < 16.0f; x += 0.05)
+		for (float x = 0; x < 16.0f; x += 0.07)
 		{
 			sprites.push_back(new
 #if BATCH_RENDERER
@@ -52,7 +53,7 @@ int main()
 #else
 				StaticSprite
 #endif	
-				(x, y, 0.04f, 0.04f, maths::vec4(rand() % 1000 / 1000.0f, rand() % 1000 / 1000.0f, rand() % 1000 / 1000.0f, 1)
+				(x, y, 0.09f, 0.09f, maths::vec4(rand() % 1000 / 1000.0f, rand() % 1000 / 1000.0f, rand() % 1000 / 1000.0f, 1)
 #if !BATCH_RENDERER
 				,  shader
 #endif
@@ -75,9 +76,10 @@ int main()
 	shader.setUniform2f("light_pos", vec2(4.0f, 1.5f));
 	//shader.setUniform4f("colour", vec4(0.2f, 0.3f, 0.8f, 1.0f));
 
-
+		Timer timer;
 		while (!window.closed())
 		{
+			timer.reset();
 			window.clear();
 			double x, y;
 			window.getMousePosition(x, y);
@@ -93,9 +95,9 @@ int main()
 			renderer.end();
 #endif
 			renderer.flush();
-
-			
 			window.update();
+
+			printf("%f ms\n", timer.elapsed() * 1000.0);
 		}
 	return 0;
 }
